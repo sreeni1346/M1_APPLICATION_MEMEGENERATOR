@@ -1,17 +1,28 @@
 ## Requirements:
 
-Introduction: Allow the users to generate image /memes as per their needs,and write over the images.
+Introduction: Allow the users to  effectively change over any number framework such as:
+binary to decimal
+binary to octal
+binary to hexadecimal.
+Decimal to binary
+Decimal to octal and Decimal to hexadecimal.
+Octal to binary,
+Octal to decimal and Octal to hexadecimal. 
+Hexadecimal to binary
+Hexadecimal to decimal and Hexadecimal to octal. 
+The user must select numbers and after that enter the number agreeing to their change. This extend has made the number framework transformation quick and simple for the user.
 
 Features:
-1.User can draw shapes and add text on top of the image.
-2.User can edit texts  as per their needs.
+1.User can get answers to any number system convertion.
+2.User can get multiple number of convertion.
 
 
 SWOT Analysis:
 ## Strenghts:
-1.With Meme Generator users can create the funniest memes and share them with their friends and family .
-2.Users can improve their creativity.
-3.Have fun with freinds and family.
+1.With number system convertion  users can convert a given number system to any other number system.
+2.Users can save their time ,without finding it manually.
+3.users can reduse the time and effort .
+4.Easily get Output. 
 
 
 ## WEAKNESS:
@@ -19,7 +30,8 @@ SWOT Analysis:
 2.May encounter with Bugs.
 
 ## Oprtunity:
-1.Entertainment Industries.
+1.  Can used for Teaching Purpose
+2.   .
 
 ## Threats:
  1. Application may crash somtimes.
