@@ -35,12 +35,12 @@ SWOT Analysis:
 
 ## Threats:
  1. Application may crash somtimes.
- 2. Violenece.
+ 2. Can hit error when given huge value.
  
  
  ## 4W's and 1H:
  Who: Any Users
- What: Used for fun part.
+ What: Used for convertion.
  When: Anytime when ever needed.
  How: Through e-site.
  
@@ -49,12 +49,12 @@ SWOT Analysis:
 
 High level requirements: 
 HLR1:User can access through web browser .
-HLR2: User can select any image and edit it.
-HLR3: The page let's user make anything they want. 
-HLR4: Once the make is done user can share it.
+HLR2: User can use any type of number system.
+HLR3: The page let's user to convert fromone number system to other ,anything they want. 
+
 
 Low Level Requirements:
-LLR1:Images.
+LLR1:Datas .
 
 
 
