@@ -48,13 +48,25 @@ SWOT Analysis:
 ## Detail requirements:
 
 High level requirements: 
-HLR1:User can access through web browser .
-HLR2: User can use any type of number system.
-HLR3: The page let's user to convert fromone number system to other ,anything they want. 
 
+
+|**ID**|**Description**|**Category**|**Status**|
+| :-: | :-: | :-: | :-: |
+|HR01|User shall be able to determine from which number system to which it should be converted.|Technical|IN PROGRESS|
+|HR02|User shall be able to differentiate the input given. |Technical|IN PROGRESS|
+|HR03|User shall be able to convert one number system to other|Technical|IN PROGRESS|
+|HR04|User shall be able to get the equivalent value in other number system|Technical|IN PROGRESS|
+|HR05|User shall be able to get the desired output|Technical|IN PROGRESS|
 
 Low Level Requirements:
-LLR1:Datas .
+
+|**ID**|**Description**|**HLR ID**|**Status (Implemented/Future)**|
+| :-: | :-: | :-: | :-: |
+|LR01|(1). User must choose the option for the convertion to start|HR01|IN PROGRESS|
+|LR02|User must give the correct option .|HR02|IN PROGRESS|
+|LR03|User must give the relevent inputs|HR03|IN PROGRESS|
+|LR04|User desired Output. |HR04|IN PROGRESS|
+
 
 
 
