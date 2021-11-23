@@ -19,9 +19,11 @@ This project focuses  keeping up visit bundles for the vacationers.Through which
 **Benefits**
 
 A user  can opt for this services any where and any time without any problems. User can utilize the highlights of the framework which incorporates booking bundle, seeing ticket, dropping a ticket, seeing the travel industry handout. It likewise contains a sign-up include.
+
+
 **Cost and Features**
 
-- The cost for implementing the Tourism Management System is moderate ,depending on the platform and other Technical functions like appearence and other stuff .  The extension of to various state of the art domains like machine learning, image processing, cryptography, path finder algorithms etc will have a research and development being done. And for the required calculations related to matrices, this program comes in handy.
+- The cost for implementing the Tourism Management System is moderate ,depending on the platform and other Technical functions like appearence and other stuff .  The extension of tourism management system can used in various state of the art by customizing the system as per the users need for example in commercial sector the need is different and etc 
 
 
 
