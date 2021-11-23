@@ -57,13 +57,13 @@ Low Level Requirements:
 
 |**ID**|**Description**|**HLR ID**|**Status (Implemented/Future)**|
 | :-: | :-: | :-: | :-: |
-|LR01| User must create account|HR01|IN PROGRESS|
-|LR02|User must choose the function  .|HR02|IN PROGRESS|
-|LR03|User must  choose the package |HR03|IN PROGRESS|
-|LR04|User can pt to book ticket or not |HR04|IN PROGRESS|
-|LR05|User may choose to print ticket |HR05|IN PROGRESS|
-|LR06|User may opt for forgotpassword function if needed |HR06|IN PROGRESS|
-|LR07|User may log out |HR07|IN PROGRESS|
+|LR01| User must create account|HR01|IMPLEMENTED|
+|LR02|User must choose the function  .|HR02|IMPLEMENTED|
+|LR03|User must  choose the package |HR03|IMPLEMENTED|
+|LR04|User can pt to book ticket or not |HR04|IMPLEMENTED|
+|LR05|User may choose to print ticket |HR05|IMPLEMENTED|
+|LR06|User may opt for forgotpassword function if needed |HR06|IMPLEMENTED|
+|LR07|User may log out |HR07|IMPLEMENTED|
 
 
 
