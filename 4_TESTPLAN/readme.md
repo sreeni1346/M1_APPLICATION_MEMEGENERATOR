@@ -26,7 +26,7 @@
 
 ![op1](https://user-images.githubusercontent.com/94226412/143053819-6dfcfc4e-32fe-45bb-93c7-6b3d59bdbc23.PNG)
 
-# lOGIN FRONT:
+# LOGIN FRONT:
 
 
 ![op2](https://user-images.githubusercontent.com/94226412/143053841-13766f7a-b159-4ef8-a4f4-af984ea125ee.PNG)
