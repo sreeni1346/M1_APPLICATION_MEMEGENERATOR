@@ -1,3 +1,4 @@
  ## Below is basic idea of how the system will work.
 
-![torism degin](https://user-images.githubusercontent.com/94226412/143044070-ecfe13a4-1485-4f3c-9ab2-a5a313b00c7a.PNG)
+
+![torism degin](https://user-images.githubusercontent.com/94226412/143044664-24256a36-22a5-4a38-af1e-4bc9d8a948ea.PNG)
