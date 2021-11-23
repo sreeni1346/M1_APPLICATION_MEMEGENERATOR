@@ -21,17 +21,24 @@
 
 # *OUTPUT*
 
- ADDING USER:
+# ADDING USER:
+
+
 ![op1](https://user-images.githubusercontent.com/94226412/143053819-6dfcfc4e-32fe-45bb-93c7-6b3d59bdbc23.PNG)
 
-lOGIN FRONT:
+# lOGIN FRONT:
+
+
 ![op2](https://user-images.githubusercontent.com/94226412/143053841-13766f7a-b159-4ef8-a4f4-af984ea125ee.PNG)
 
-SERVICE SLECTION:
+# SERVICE SLECTION:
+
 ![op3](https://user-images.githubusercontent.com/94226412/143053855-b145997f-6ff1-4a2e-bcdb-28beef3e7b66.PNG)
 
-PACKAGE SELECTION:
+# PACKAGE SELECTION:
+
 ![opt4](https://user-images.githubusercontent.com/94226412/143053875-d2d5f08f-75c7-46e3-8e4c-f06adc1e65e0.PNG)
 
-EXIT TERMINAL:
+# EXIT TERMINAL:
+
 ![opt5](https://user-images.githubusercontent.com/94226412/143053889-ddeaa2b1-cacf-4dea-b2e7-b64250ff90d1.PNG)
