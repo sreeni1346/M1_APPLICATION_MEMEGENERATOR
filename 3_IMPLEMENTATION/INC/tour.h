@@ -44,7 +44,7 @@ userprofile* InitializeListing(userprofile *hello)
         return NULL;
 
     if(fgetc(fileopen)==EOF)
-        return 0;
+        break;
 
     rewind(fileopen);
 	while(fscanf(fileopen,"%90s %90s %90s %90f %90d",temporary.user_fname,temporary.user_password,temporary.user_place,&temporary.ticket_price,&temporary.user_numtick)!=EOF)
@@ -153,7 +153,7 @@ void login_client(userprofile* hello)
 {
     char client_username[100];
     char client_password[100];
-    fflush(stdin);
+    //fflush(stdin);
     printf("\n\n");
     printf("\t\tEnter Email/Username:\n\t\t");
     scanf("%90s",client_username);
@@ -274,7 +274,7 @@ void printing_ticket(userprofile *hello)
     }
     if(fgetc(fileopen)==EOF)
     {
-        fprintf(fileopen,"TOURISM TICKET\n===============\n\n");
+        fprintf("TOURISM TICKET\n===============\n\n");
 	     fflush(stdin);
     }
     fprintf(fileopen,"Email ID: %s\nTour Code: %s\nTicket Cost: P %f\nNumber of tickets: %d\nTotal Cost: P %f\n",hello->user_fname,hello->user_place,hello->ticket_price,hello->user_numtick,tot);
