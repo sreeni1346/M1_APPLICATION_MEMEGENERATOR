@@ -1,7 +1,7 @@
 
-## *Test Plan*
+## Test Plan
 
-## High level test plan
+# High level test plan
 | ID   |      Description     |  Expected o/p |
 |----------|:-------------:|------:|
 | HLTP_1 |  Get Account info from user Implemented  |
@@ -9,7 +9,7 @@
 | HLTP_3 |  Get the conformation from the user| Implemented|
 | HLTP_3 |  Display the details to the user | Implemented|
 
-## Low level test plan
+# Low level test plan
 | ID   |      Description     |  Expected o/p |
 |----------|:-------------:|------:|
 | LLTP_1 |  Add user| 1  |
@@ -19,7 +19,7 @@
 
 
 
-## *OUTPUT*
+## OUTPUT
 
 ## Adding user
 
