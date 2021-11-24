@@ -337,7 +337,7 @@ void changing_pass(userprofile *hello)
     char passcurr[100];
     fflush(stdin);
     printf("Enter your current password to continue:\n");
-    scanf(" %[^\n]90s",passcurr);
+    scanf(" %90[^\n]s",passcurr);
     while(hello!=NULL)
     {
         if(!strcmp(hello->user_fname,current_client))
