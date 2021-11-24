@@ -65,7 +65,7 @@ Low Level Requirements:
 |LR04|User can pt to book ticket or not |HR04|IMPLEMENTED|
 |LR05|User may choose to print ticket |HR05|IMPLEMENTED|
 |LR06|User may opt for forgotpassword function if needed |HR06|IMPLEMENTED|
-|LR07|User may log out |HR07|IMPLEMENTED|
+|LR07|User may log out|HR07|IMPLEMENTED|
 
 
 
