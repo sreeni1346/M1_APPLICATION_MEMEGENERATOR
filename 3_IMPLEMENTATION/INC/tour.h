@@ -114,7 +114,7 @@ userprofile* Adding_Client(userprofile* hello)
     newwonderers=(userprofile*)malloc(sizeof(userprofile));
     //fflush(stdin);
     printf("Enter Username or Email\n");
-    scanf("%s20",newwonderers->user_fname);
+    scanf("%90s",newwonderers->user_fname);
     while(hello!=NULL)
     {
         if(!strcmp(hello->user_fname,newwonderers->user_fname))
@@ -127,7 +127,7 @@ userprofile* Adding_Client(userprofile* hello)
     hello=trans;
     fflush(stdin);
     printf("Enter password\n");
-    scanf(" %s20[^\n]",newwonderers->user_password);
+    scanf(" %20s[^\n]",newwonderers->user_password);
     newwonderers->next=NULL;
     strcpy(newwonderers->user_place,"N/A");
     newwonderers->ticket_price=0.0;
@@ -202,7 +202,7 @@ void booking_ticket(userprofile *hello)
     float pricelist[]={3000.0,5000.0,2000.0,10000.0,12000.0,5000.0,7000.0,8000.0,12000.0,14000.0};
     fflush(stdin);
     printf("\nEnter place code (eg: AA, BB)\n");
-    scanf(" %[^\n]100s",place);
+    scanf(" %90[^\n]s",place);
     char choice;
     fflush(stdin);
     printf("\nWould You Like to Confirm Booking?\n[1] - Yes\n[2] - No\n");
@@ -275,6 +275,7 @@ void printing_ticket(userprofile *hello)
     if(fgetc(fileopen)==EOF)
     {
         fprintf(fileopen,"TOURISM TICKET\n===============\n\n");
+	     fflush(stdin);
     }
     fprintf(fileopen,"Email ID: %s\nTour Code: %s\nTicket Cost: P %f\nNumber of tickets: %d\nTotal Cost: P %f\n",hello->user_fname,hello->user_place,hello->ticket_price,hello->user_numtick,tot);
     fclose(fileopen);
@@ -336,7 +337,7 @@ void changing_pass(userprofile *hello)
     char passcurr[100];
     fflush(stdin);
     printf("Enter your current password to continue:\n");
-    scanf(" %[^\n]100s",passcurr);
+    scanf(" %[^\n]90s",passcurr);
     while(hello!=NULL)
     {
         if(!strcmp(hello->user_fname,current_client))
@@ -348,7 +349,7 @@ void changing_pass(userprofile *hello)
     if(!strcmp(passcurr,hello->user_password))
     {
         printf("Enter new password:\n");
-        scanf(" %[^\n]100s",hello->user_password);
+        scanf(" %90[^\n]s",hello->user_password);
     }
     WriteToFile(trans);
 }
