@@ -6,5 +6,6 @@
 ## Windows OS Build
 [![Windows OS Build](https://github.com/sreeni1346/M1_APPLICATION_Tourism_Management_system/actions/workflows/Windows_c-cpp.yml/badge.svg)](https://github.com/sreeni1346/M1_APPLICATION_Tourism_Management_system/blob/main/.github/workflows/Windows_c-cpp.yml)
 
+
 ## Quality Badge
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/da1e0e40d3154aa6b1874f619149f062(https://www.codacy.com/gh/sreeni1346/M1_APPLICATION_Tourism_Management_system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sreeni1346/M1_APPLICATION_Tourism_Management_system;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/da1e0e40d3154aa6b1874f619149f062)](https://www.codacy.com/gh/sreeni1346/M1_APPLICATION_Tourism_Management_system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sreeni1346/M1_APPLICATION_Tourism_Management_system&amp;utm_campaign=Badge_Grade)
