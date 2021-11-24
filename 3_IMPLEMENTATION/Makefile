@@ -1,3 +1,13 @@
+/**
+ * @file tour.c
+ * @author Sreeni N K (sreenink1346@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-11-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 PROJ_NAME = STRING_FINDER
 SRC = tour.c
 
