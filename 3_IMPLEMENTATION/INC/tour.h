@@ -277,7 +277,7 @@ void printing_ticket(userprofile *hello)
         fprintf("TOURISM TICKET\n===============\n\n");
 	     fflush(stdin);
     }
-    fprintf(fileopen,"Email ID: %s\nTour Code: %s\nTicket Cost: P %f\nNumber of tickets: %d\nTotal Cost: P %f\n",hello->user_fname,hello->user_place,hello->ticket_price,hello->user_numtick,tot);
+    fprintf("Email ID: %s\nTour Code: %s\nTicket Cost: P %f\nNumber of tickets: %d\nTotal Cost: P %f\n",hello->user_fname,hello->user_place,hello->ticket_price,hello->user_numtick,tot);
     fclose(fileopen);
 }
 //TMS1353f
