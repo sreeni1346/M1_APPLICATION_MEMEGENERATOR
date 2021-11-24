@@ -11,5 +11,5 @@
 ## Unity Testing 
 [![Unity Testing](https://github.com/sreeni1346/M1_APPLICATION_Tourism_Management_system/actions/workflows/unit_testingc-cpp.yml/badge.svg)](https://github.com/sreeni1346/M1_APPLICATION_Tourism_Management_system/blob/main/.github/workflows/unit_testingc-cpp.yml)
 
-## Code Quality badge
-[![Code quality Badge](https://api.codiga.io/project/29944/status/svg)](https://www.codacy.com/gh/sreeni1346/M1_APPLICATION_Tourism_Management_system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sreeni1346/M1_APPLICATION_Tourism_Management_system&amp;utm_campaign=Badge_Grade)
+## Code Quality Badge
+[![Code Quality Badge](https://api.codiga.io/project/29944/score/svg)](https://www.codacy.com/gh/sreeni1346/M1_APPLICATION_Tourism_Management_system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sharon012/M1_Application_ATM_Machine&amp;utm_campaign=Badge_Grade)
