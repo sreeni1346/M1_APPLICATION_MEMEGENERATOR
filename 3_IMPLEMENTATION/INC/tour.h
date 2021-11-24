@@ -35,7 +35,7 @@ userprofile* InitializeListing(userprofile *hello)
 {
     userprofile* text,*petrol,temporary;
     FILE *fileopen;
-    int counting_cooridantes=0;
+    //int counting_cooridantes=0;
     int z;
    // float following;
     fileopen=fopen("users.txt","r");
@@ -135,7 +135,7 @@ userprofile* Adding_Client(userprofile* hello)
 
     if(hello==NULL)
     {
-        hello=trans=newwonderers;
+        hello->trans=newwonderers;
     }
     else
     {
