@@ -4,7 +4,7 @@
 ## LOGIN SEGMENT
 ![op2](https://user-images.githubusercontent.com/94226412/143170781-fd33dd0f-780a-447e-bf07-59d6c4470a23.PNG)
 
-## BOOKING SEGMENT:
+## BOOKING SEGMENT
 ![op3](https://user-images.githubusercontent.com/94226412/143170792-49032196-613f-48e8-9327-a143c4cb3b46.PNG)
 
 ## BOOKING CONFORMATION 
