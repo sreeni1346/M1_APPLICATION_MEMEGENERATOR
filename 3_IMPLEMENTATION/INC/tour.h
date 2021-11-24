@@ -125,7 +125,7 @@ userprofile* Adding_Client(userprofile* hello)
         hello=hello->next;
     }
     hello=trans;
-    fflush(stdin);
+    //fflush(stdin);
     printf("Enter password\n");
     scanf(" %20s[^\n]",newwonderers->user_password);
     newwonderers->next=NULL;
