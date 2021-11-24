@@ -32,14 +32,17 @@ SWOT Analysis:
 1.Vulnerable to viruses.
 2.May encounter with Bugs.
 
-## Oprtunity:
+## Oprtunity
+
 1. Commercial Industries.
   
 ## Threats:
+
  1. Application may crash somtimes.
  2. Can hit errors under connectivity issue.
  
  ## 4W's and 1H:
+
  Who: Any Users
  What: Used for commercial purpose.
  When: Anytime ,when ever needed.
