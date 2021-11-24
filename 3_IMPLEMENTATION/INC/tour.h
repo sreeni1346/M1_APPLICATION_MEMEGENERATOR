@@ -44,10 +44,10 @@ userprofile* InitializeListing(userprofile *hello)
         return NULL;
 
     if(fgetc(fileopen)==EOF)
-        return NULL;
+        return 0;
 
     rewind(fileopen);
-	while(fscanf(fileopen,"%s %s %s %f %d",temporary.user_fname,temporary.user_password,temporary.user_place,&temporary.ticket_price,&temporary.user_numtick)!=EOF)
+	while(fscanf(fileopen,"%s20 %s20 %s20 %f20 %d",temporary.user_fname,temporary.user_password,temporary.user_place,&temporary.ticket_price,&temporary.user_numtick)!=EOF)
 	{
 		petrol=(userprofile*)malloc(sizeof(userprofile));
 		strcpy(petrol->user_fname,temporary.user_fname);
@@ -112,9 +112,9 @@ userprofile* Adding_Client(userprofile* hello)
     trans=hello;
     userprofile *newwonderers;
     newwonderers=(userprofile*)malloc(sizeof(userprofile));
-    fflush(stdin);
+    //fflush(stdin);
     printf("Enter Username or Email\n");
-    scanf("%s",newwonderers->user_fname);
+    scanf("%s20",newwonderers->user_fname);
     while(hello!=NULL)
     {
         if(!strcmp(hello->user_fname,newwonderers->user_fname))
@@ -127,7 +127,7 @@ userprofile* Adding_Client(userprofile* hello)
     hello=trans;
     fflush(stdin);
     printf("Enter password\n");
-    scanf(" %s[^\n]",newwonderers->user_password);
+    scanf(" %s20[^\n]",newwonderers->user_password);
     newwonderers->next=NULL;
     strcpy(newwonderers->user_place,"N/A");
     newwonderers->ticket_price=0.0;
@@ -156,10 +156,10 @@ void login_client(userprofile* hello)
     fflush(stdin);
     printf("\n\n");
     printf("\t\tEnter Email/Username:\n\t\t");
-    scanf("%s",client_username);
+    scanf("%s100",client_username);
     fflush(stdin);
     printf("\n\t\tEnter Password:\n\t\t");
-    scanf(" %s[^\n]",client_password);
+    scanf(" %s100[^\n]",client_password);
     while(hello!=NULL)
     {
         if((!strcmp(hello->user_fname,client_username)) && (!strcmp(hello->user_password,client_password)))
@@ -202,11 +202,11 @@ void booking_ticket(userprofile *hello)
     float pricelist[]={3000.0,5000.0,2000.0,10000.0,12000.0,5000.0,7000.0,8000.0,12000.0,14000.0};
     fflush(stdin);
     printf("\nEnter place code (eg: AA, BB)\n");
-    scanf(" %[^\n]s",place);
+    scanf(" %[^\n]s100",place);
     char choice;
     fflush(stdin);
     printf("\nWould You Like to Confirm Booking?\n[1] - Yes\n[2] - No\n");
-    scanf("%s",&choice);
+    scanf("%s5",&choice);
     float price;
     if(choice!='1')
         return;
@@ -336,7 +336,7 @@ void changing_pass(userprofile *hello)
     char passcurr[100];
     fflush(stdin);
     printf("Enter your current password to continue:\n");
-    scanf(" %[^\n]s",passcurr);
+    scanf(" %[^\n]s100",passcurr);
     while(hello!=NULL)
     {
         if(!strcmp(hello->user_fname,current_client))
@@ -348,7 +348,7 @@ void changing_pass(userprofile *hello)
     if(!strcmp(passcurr,hello->user_password))
     {
         printf("Enter new password:\n");
-        scanf(" %[^\n]s",hello->user_password);
+        scanf(" %[^\n]s100",hello->user_password);
     }
     WriteToFile(trans);
 }
