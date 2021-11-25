@@ -17,5 +17,5 @@
 ## Folder structure
 | ID   |      Description     |  Content |
 |----------|:-------------:|------:|
-| 01 |  INC |.h File|
-| 02 |  SRC  | .c File  |
+| 01 |  INC |Header File|
+| 02 |  SRC  | Main File  |
