@@ -13,3 +13,9 @@
 
 ## Code Quality Badge
 [![Code Quality Badge](https://api.codiga.io/project/29944/score/svg)](https://www.codacy.com/gh/sreeni1346/M1_APPLICATION_Tourism_Management_system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sharon012/M1_Application_ATM_Machine&amp;utm_campaign=Badge_Grade)
+
+## Folder structure
+| ID   |      Description     |  Content |
+|----------|:-------------:|------:|
+| 01 |  INC |.h File|
+| 02 |  SRC  | .c File  |
