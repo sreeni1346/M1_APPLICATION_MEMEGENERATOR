@@ -27,3 +27,6 @@
 
 ## EXIT
 ![opt10](https://user-images.githubusercontent.com/94226412/143170919-d5569d8d-bd82-40b2-a15b-24a0090f6153.PNG)
+
+## Video Compilation
+https://user-images.githubusercontent.com/94226412/143381098-f3ec644a-ca17-49a6-bd55-b0cb6a3f405c.mp4
